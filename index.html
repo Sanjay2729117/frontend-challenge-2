@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+
+      font-family: "Roboto", sans-serif;
+    }
+.stayupdated{
+  color: hsl(234, 29%, 20%);
+}
+.join{
+  color: hsl(235, 18%, 26%);
+}
+.let{
+  color: hsl(234, 29%, 20%);
+}
+.em{
+  
+ color: hsl(235, 18%, 26%);
+}
+.ei{
+  border: 1px solid hsl(231, 7%, 60%);
+  border-radius: 10px;
+}
+.eb{
+  background-color: hsl(234, 29%, 20%);
+  color: #fff;
+  text-align: center;
+}
+.main-div{
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(234, 29%, 20%);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="md:h-[100vh] md:w-full md:flex md:justify-center md:items-center md:bg-[#242742]">
+
+  <!-- Sign-up form start -->
+  <div class="main-div flex flex-col justify-center items-center md:flex-row md:justify-around md:w-[60vw]  md:items-center">
+    <div class="img w-full md:hidden">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" class="md:hidden w-full" alt="">
+    </div>
+      <div class=" w-[90vw] md:w-[25vw]">
+        <div class="stayupdated font-bold mt-8 text-3xl md:text-5xl">Stay updated!</div>
+        <div class="join font-semibold mt-5 text-sm md:mt-7">
+          Join 60,000+ product managers receiving monthly updates on:</div>
+        <div class="flexcheck mt-6 flex flex-col gap-3 md:gap-6">
+          <div class="flextick flex justify-start  gap-3 items-start">
+            <img src="./assets/images/icon-success.svg" alt="" class="w-5">
+            <div class="let text-sm font-semibold md:text-md">Product discovery and building what matters</div>
+          </div>
+          <div class="flextick flex justify-start  gap-3 items-start">
+            <img src="./assets/images/icon-success.svg" alt="" class="w-5">
+            <div class="let text-sm font-semibold md:text-md">Measuring to ensure updates are a success</div>
+          </div>
+          <div class="flextick flex justify-start  gap-3 items-start">
+            <img src="./assets/images/icon-success.svg" alt="" class="w-5">
+            <div class="let text-sm font-semibold md:text-md">And much more!</div>
+          </div>
+        </div>
+        <div class="email flex flex-col mt-6 gap-3">
+          <div class="em text-sm font-semibold">Email address</div>
+          <input type="email" placeholder="email@company.com" class="p-3 ei">
+          <button class="p-3 rounded-md text-sm font-medium eb">Subscribe to monthly newsletter</button>
+        </div>
+      </div>
+      <div class="img  hidden md:block pt-4 pb-4">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" class="md:block hidden " alt="">
+      </div>
+
+</div>
+
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+    <!--
+  Thanks for subscribing!
+
+  A confirmation email has been sent to ash@loremcompany.com. 
+  Please open it and click the button inside to confirm your subscription.
+
+  Dismiss message
+
+   Success message end
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+   -->
+</body>
+
+</html>
